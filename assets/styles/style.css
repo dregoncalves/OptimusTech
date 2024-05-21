@@ -1,0 +1,57 @@
+:root {
+    --text-color: #667085;
+    --second-color: #8E2424;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+
+.links a{
+    margin-right: 2rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: 0.4s;
+}
+
+.links a:hover {
+    color: black;
+}
+
+.cadastrar {
+    background-color: var(--second-color);
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.2s;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    padding: 0.8rem 1rem;
+}
+
+button:hover {
+    transform: scale(110%);
+}
