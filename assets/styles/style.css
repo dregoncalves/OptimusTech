@@ -238,3 +238,57 @@ button:hover {
     color: var(--text-color);
 }
 
+/* RODAPÉ */
+
+.rodape {
+    height: 430px;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 96px 0 96px 0;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape-titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape p {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+#email {
+    padding: 12px 14px;
+    width: 360px;
+    border-radius: 8px;
+    border: 0.5px solid rgba(0, 0, 0, 0.062);
+    margin-right: 16px;
+    transition: 0.5s;
+    outline: none;
+}
+
+input#email:focus {
+    border: 1px solid #6e7785;
+}
+
+.formulario .botao {
+    padding: 12.5px 20px;
+    background-color: var(--second-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background: #8e2424b9;
+    transition: all 0.3s ease-out;
+  }
+
+.copyright {
+    color: #98A2B3;
+    font-size: 16px;
+}
